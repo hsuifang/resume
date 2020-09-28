@@ -1,0 +1,50 @@
+// Spacing | 間距
+// 
+$space: 1rem !default;
+
+$spacer: (
+  0: $space * 0,
+  1: $space * 0.25,
+  2: $space * 0.5,
+  3: $space,
+  4: $space * 1.5,
+  5: $space * 2
+);
+
+$direction: (
+  
+);
+
+@each $key, $value in $spacer {
+  .m-#{$key} {
+    margin: $value !important;
+  }
+  .mt-#{$key} {
+    margin-top: $value !important;
+  }
+  .ml-#{$key} {
+    margin-left: $value !important;
+  }
+  .mb-#{$key} {
+    margin-bottom: $value !important;
+  }
+  .mr-#{$key} {
+    margin-right: $value !important;
+  }
+  // padding
+  .p-#{$key} {
+    padding: $value !important;
+  }
+  .pt-#{$key} {
+    padding-top: $value !important;
+  }
+  .pl-#{$key} {
+    padding-left: $value !important;
+  }
+  .pb-#{$key} {
+    padding-bottom: $value !important;
+  }
+  .pr-#{$key} {
+    padding-right: $value !important;
+  }
+}
