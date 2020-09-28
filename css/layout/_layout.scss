@@ -1,5 +1,4 @@
 .container {
-  width: 100%;
   max-width: $max-width;
   margin: auto;
 }
@@ -23,8 +22,6 @@ header {
     }
   }
   img {
-    width: 20.25rem;
-    height: 20.25rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }

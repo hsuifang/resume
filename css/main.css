@@ -355,7 +355,7 @@ html {
   width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-size: 100%;
   margin: 0;
 }
@@ -639,8 +639,7 @@ ol, ul {
 }
 
 .container, header {
-  width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -663,8 +662,6 @@ header h1:after {
 }
 
 header img {
-  width: 20.25rem;
-  height: 20.25rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
